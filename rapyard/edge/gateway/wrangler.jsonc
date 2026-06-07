@@ -1,0 +1,16 @@
+{
+  "name": "rapyard-gateway",
+  "main": "src/index.ts",
+  "compatibility_date": "2024-12-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "routes": [
+    { "pattern": "rapyard.club/*", "zone_name": "rapyard.club" },
+    { "pattern": "*.rapyard.club/*", "zone_name": "rapyard.club" }
+  ],
+  "services": {
+    "rapyard-api-router": {
+      "service": "rapyard-api-router",
+      "environment": "production"
+    }
+  }
+}

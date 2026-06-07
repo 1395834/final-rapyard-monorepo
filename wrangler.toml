@@ -1,0 +1,7 @@
+name = "presence-do"
+main = "src/index.ts"
+compatibility_date = "2026-06-06"
+
+account_id = "874fdacea1012c366e621f43ab9d5e66"
+
+workers_dev = true

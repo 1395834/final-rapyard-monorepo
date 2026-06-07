@@ -1,0 +1,17 @@
+{
+  "name": "rapyard-edge-gateway",
+  "version": "1.0.0",
+  "private": true,
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "dependencies": {
+    "hono": "^4.0.0"
+  },
+  "devDependencies": {
+    "wrangler": "latest",
+    "typescript": "^5.4.0"
+  }
+}
